@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    --color1:burlywood;
+    --color2:rgb(51, 51, 131);
+    --color3:rgb(139, 139, 250);
+
+}
+body{
+    background-image: url(../Images/pic5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.web{
+    margin-left: 100px;
+    place-content: center;
+    width: 80%; 
+}
+.p1{
+    width: 400px;
+    padding: 10px;
+    padding-top: 40px;
+    border: 5px solid black;
+    border-radius: 30%;
+    background-image: url(../Images/pngwing.com\ \(30\).png);
+    background-position: center center;
+    background-size: cover;
+    font-weight: 600;
+    transition: all 0.1s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.p2{
+    width: 400px;
+    padding: 10px;
+    padding-top: 40px;
+    border: 5px solid black;
+    border-radius: 30%;
+    background-color: var(--color2);
+    font-weight: 600;
+    margin-top: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.p3{
+    width: 400px;
+    padding: 10px;
+    padding-top: 40px;
+    border: 5px solid black;
+    border-radius: 30%;
+    font-weight: 600;
+    margin-top: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.p4{
+    width: 400px;
+    padding: 10px;
+    padding-top: 40px;
+    border: 5px solid black;
+    border-radius: 30%;
+    background-color: var(--color2);
+    font-weight: 600;
+    margin-top: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.p5{
+    width: 400px;
+    padding: 10px;
+    padding-top: 40px;
+    border: 5px solid black;
+    border-radius: 30%;
+    font-weight: 600;
+    margin-top: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.p6{
+    width: 400px;
+    padding: 10px;
+    padding-top: 40px;
+    border: 5px solid black;
+    border-radius: 30%;
+    background-color: var(--color2);
+    font-weight: 600;
+    margin-top: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.web h1{
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 75px;
+    text-transform: capitalize;
+    place-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.span{
+    color: var(--color1);
+    text-transform: capitalize;
+    font-size: 50px;
+}
+.web p{
+    color: black;
+    line-height: 0.7cm;
+    text-indent: 50px;
+    font-size: 30;
+    margin-bottom: 10vh;
+}
+.ref{
+    background-color: var(--color1);
+    place-content: center;
+}
+.references{
+    background-color: transparent;
+    width: 50%;
+    font-weight: bold;
+    place-content: center;
+    margin-left: 25%;
+    border: none;
+
+}
+h3{
+    text-transform: capitalize;
+    font-size: 30px;
+    text-decoration: underline;
+}
